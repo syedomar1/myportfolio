@@ -10,7 +10,7 @@ const Banner = () => {
     <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
     <div className="container mx-auto">
       <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
-        <div className='flex-1 text-center font-secondary lg:text-left'>
+        <div className='flex-1 text-center font-secondary lg:text-left mt-9'>
           <motion.h1 
           variants={fadeIn('up', 0.3)}
           initial="hidden" 
@@ -53,7 +53,7 @@ const Banner = () => {
           initial="hidden" 
           whileInView = {'show'} 
           viewport={{once:false, amount:0.7}}
-          className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
+          className='flex max-w-max gap-x-6 items-center mb-6 mx-auto lg:mx-0'>
             <button className='btn btn-lg'>Contact Me</button>
             <a href='#' className='text-gradient btn-link'>
               My Portfolio
@@ -64,20 +64,20 @@ const Banner = () => {
           initial="hidden" 
           whileInView = {'show'} 
           viewport={{once:false, amount:0.7}}
-          className='flex text-[20px] gap-x-6 max-w-max mb-8 mx-auto lg:mx-0'>
-            <a href='#'>
+          className='flex text-[20px] gap-x-6 max-w-max -mb-5 mx-auto lg:mx-0'>
+            <a target='_blank' href='https://github.com/syedomar1'>
               <FaGithub/>
             </a>
-            <a href='#'>
+            <a target='_blank' href='https://www.linkedin.com/in/syed-omar-albeez'>
               <FaLinkedin/>
             </a>
-            <a href='#'>
+            <a target='_blank' href='https://twitter.com/Syedomar_'>
               <FaTwitter/>
             </a>
-            <a href='#'>
+            <a target='_blank' href='https://www.instagram.com/syedomar_/'>
               <FaInstagram/>
             </a>
-            <a href='#'>
+            <a target='_blank' href='https://medium.com/@syedomar1'>
               <FaMedium/>
             </a>
           </motion.div>

@@ -10,7 +10,7 @@ const About = () => {
   });
   return(
     <section className='section' id='about' ref={ref}>
-      <div className="container mx-auto m-0">
+      <div className="container mx-auto -mt-5">
         <div className='flex flex-col gap-y-0 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
           {/* img */}
           <motion.div 
