@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .full {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .button {
+    background-color: slateblue;
+    color: white;
+  }
+  
+  .heading {
+    margin: 0 !important;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+  }
+  .subHeading {
+    margin: 0 !important;
+    margin-top: 8px !important;
+    color: white;
+    font-weight: 200;
+    font-size: medium;
+    opacity: 0.5;
+  }
+  .description {
+    margin-bottom: 20px !important;
+    color: white;
+    font-size: small !important;
+    opacity: 0.3;
+  }
