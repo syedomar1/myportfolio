@@ -79,7 +79,7 @@ function Experience() {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work text-black mb-32"
+          className="vertical-timeline-element--work text-black"
           dateClassName="text-white"
           date="Jan 2014 - Dec 2014"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
