@@ -30,7 +30,7 @@ const About = () => {
               I'm a Full Stack Developer.
             </h3>
             <p className='mb-6'>
-              I am the current Management Lead of Google Developer Students Club.
+              I am a skilled and passionate Web Developer. Current Management Lead of Google Developer Students Club.
               Innovative, creative, team player who is passionate to solve problems, explore new tools, enhance skillset and enthusiastic about achieving academic and aspirational goals and always willing to explore a wide variety of opportunities that can help to gain perspective and embark new challenges.
             </p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-5'>
@@ -54,7 +54,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className='flex gap-x-8 items-center mt-0'>
+            <div className='flex gap-x-8 items-center mt-0 mb-0'>
               <button className='btn btn-lg'>Contact me</button>
               <a href="#" className='text-gradient btn-link'>
                 My Portfolio

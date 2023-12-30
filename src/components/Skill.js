@@ -28,7 +28,7 @@ const skills = [
 
 const Skill = () => {
   return(
-    <section className='section' id='skills'>
+    <section className='section mb-16' id='skills'>
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row'>
           <motion.div 
