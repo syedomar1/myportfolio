@@ -25,6 +25,7 @@
 
 .gradient,
 .active {
+  cursor: pointer;
   background: linear-gradient(
     92.23deg,
     #406aff 21.43%,

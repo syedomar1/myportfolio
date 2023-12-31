@@ -5,11 +5,22 @@ import { TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn, fadein} from '../variants';
 
+const resume = "SyedOmar-Resume.pdf"
+
 const Banner = () => {
+  const saveFile = (url) =>{
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag); // required for firefox
+    aTag.click();
+    aTag.remove();
+  };
   return(
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center mb-8' id='home'>
     <div className="container mx-auto">
-      <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
+      <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 '>
         <div className='flex-1 text-center font-secondary lg:text-left mt-9'>
           <motion.h1 
           variants={fadeIn('up', 0.3)}
@@ -54,8 +65,8 @@ const Banner = () => {
           whileInView = {'show'} 
           viewport={{once:false, amount:0.7}}
           className='flex max-w-max gap-x-6 items-center mb-6 mx-auto lg:mx-0'>
-            <button className='btn btn-lg'>Contact Me</button>
-            <a href='#' className='text-gradient btn-link'>
+            <a target='blank_' href='https://www.linkedin.com/in/syed-omar-albeez' className='btn btn-lg leading-10'>Contact Me</a>
+            <a href='' onClick={() => saveFile(resume)} className='text-gradient btn-link'>
               My Portfolio
             </a>
           </motion.div>
@@ -64,7 +75,7 @@ const Banner = () => {
           initial="hidden" 
           whileInView = {'show'} 
           viewport={{once:false, amount:0.7}}
-          className='flex text-[20px] gap-x-6 max-w-max -mb-5 mx-auto lg:mx-0'>
+          className='flex text-[20px] gap-x-6 max-w-max -mb-4 mx-auto lg:mx-0'>
             <a target='_blank' href='https://github.com/syedomar1'>
               <FaGithub/>
             </a>
