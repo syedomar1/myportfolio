@@ -3,14 +3,26 @@ import CountUp from 'react-countup';
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
+// import { Link } from "react-router-dom";
+
+const resume = "SyedOmar-Resume.pdf"
 
 const About = () => {
+  const saveFile = (url) =>{
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag); // required for firefox
+    aTag.click();
+    aTag.remove();
+  };
   const [ref, inView] = useInView({
     threshold:0.5,
   });
   return(
     <section className='section' id='about' ref={ref}>
-      <div className="container mx-auto -mt-5">
+      <div className="container mx-auto -mt-4">
         <div className='flex flex-col gap-y-0 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
           {/* img */}
           <motion.div 
@@ -55,10 +67,13 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center mt-0 mb-0'>
-              <button className='btn btn-lg'>Contact me</button>
-              <a href="#" className='text-gradient btn-link'>
+            <a target='_blank' href='https://www.linkedin.com/in/syed-omar-albeez' className='btn btn-lg leading-10'>Contact Me</a>
+            <a href='/about' onClick={() => saveFile(resume)} className='text-gradient btn-link'>
                 My Portfolio
               </a>
+            {/* <Link to='/about' onClick={() => saveFile(resume)} className='text-gradient btn-link'>
+                My Portfolio
+              </Link> */}
             </div>
           </motion.div>
         </div>
