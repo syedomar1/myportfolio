@@ -66,7 +66,7 @@ const Banner = () => {
           viewport={{once:false, amount:0.7}}
           className='flex max-w-max gap-x-6 items-center mb-6 mx-auto lg:mx-0'>
             <a target='blank_' rel="noreferrer" href='https://www.linkedin.com/in/syed-omar-albeez' className='btn btn-lg leading-10'>Contact Me</a>
-            <a href='#' onClick={() => saveFile(resume)} className='text-gradient btn-link'>
+            <a href='/' onClick={() => saveFile(resume)} className='text-gradient btn-link'>
               My Portfolio
             </a>
           </motion.div>

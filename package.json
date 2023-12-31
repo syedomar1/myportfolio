@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.23.0",
     "framer-motion": "^10.16.16",
     "nodemon": "^3.0.2",
     "react-countup": "^6.5.0",

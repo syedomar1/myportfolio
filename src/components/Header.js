@@ -16,7 +16,7 @@ const Header = () => {
   return <header className='py-3'>
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
-      <a href='#'>
+      <a href='/'>
         <img src={Logo} alt="Logo" width="100px" />
       </a>
       <button className='btn btn-sm' onClick={() => saveFile(resume)}>Resume</button>
