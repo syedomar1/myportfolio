@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { BsArrowUpRight } from 'react-icons/bs';
+// import { BsArrowUpRight } from 'react-icons/bs';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
@@ -47,7 +47,7 @@ const Skill = () => {
             <h3 className='h3 max-w-[455px] mb-6'>
               As a sophomore, building upon my skills, I have developed expertise in various tech stacks.
             </h3>
-            <a target='blank_' href='https://github.com/syedomar1' className='btn btn-lg leading-10'>See my Work</a>
+            <a target='blank_' rel="noreferrer" href='https://github.com/syedomar1' className='btn btn-lg leading-10'>See my Work</a>
           </motion.div>
           <motion.div 
           variants={fadeIn('left',0.5)}
@@ -58,7 +58,8 @@ const Skill = () => {
             <div>
               {skills.map((skills, index)=> {
                 // destructure
-                const {name, description, link} = skills;
+                // const {name, description, link} = skills;
+                const {name, description} = skills;
                 return(
                   <div className='border-b border-white/20 mb-[36px] flex' key={index}>
                   <div className='max-w-[476px]'>

@@ -25,19 +25,19 @@ const Contact = () => {
           whileInView = {'show'} 
           viewport={{once:false, amount:0.7}}
           className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 mb-8'>
-            <a target='_blank' href='https://github.com/syedomar1'>
+            <a target='_blank' rel="noreferrer" href='https://github.com/syedomar1'>
               <FaGithub/>
             </a>
-            <a target='_blank' href='https://www.linkedin.com/in/syed-omar-albeez'>
+            <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/syed-omar-albeez'>
               <FaLinkedin/>
             </a>
-            <a target='_blank' href='https://twitter.com/Syedomar_'>
+            <a target='_blank' rel="noreferrer" href='https://twitter.com/Syedomar_'>
               <FaTwitter/>
             </a>
-            <a target='_blank' href='https://www.instagram.com/syedomar_/'>
+            <a target='_blank' rel="noreferrer" href='https://www.instagram.com/syedomar_/'>
               <FaInstagram/>
             </a>
-            <a target='_blank' href='https://medium.com/@syedomar1'>
+            <a target='_blank' rel="noreferrer" href='https://medium.com/@syedomar1'>
               <FaMedium/>
             </a>
           </motion.div>

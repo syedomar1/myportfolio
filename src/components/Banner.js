@@ -3,7 +3,7 @@ import Image from '../assets/omar1.svg'
 import {FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaMedium} from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
-import {fadeIn, fadein} from '../variants';
+import {fadeIn} from '../variants';
 
 const resume = "SyedOmar-Resume.pdf"
 
@@ -65,8 +65,8 @@ const Banner = () => {
           whileInView = {'show'} 
           viewport={{once:false, amount:0.7}}
           className='flex max-w-max gap-x-6 items-center mb-6 mx-auto lg:mx-0'>
-            <a target='blank_' href='https://www.linkedin.com/in/syed-omar-albeez' className='btn btn-lg leading-10'>Contact Me</a>
-            <a href='' onClick={() => saveFile(resume)} className='text-gradient btn-link'>
+            <a target='blank_' rel="noreferrer" href='https://www.linkedin.com/in/syed-omar-albeez' className='btn btn-lg leading-10'>Contact Me</a>
+            <a href='#' onClick={() => saveFile(resume)} className='text-gradient btn-link'>
               My Portfolio
             </a>
           </motion.div>
@@ -76,19 +76,19 @@ const Banner = () => {
           whileInView = {'show'} 
           viewport={{once:false, amount:0.7}}
           className='flex text-[20px] gap-x-6 max-w-max -mb-4 mx-auto lg:mx-0'>
-            <a target='_blank' href='https://github.com/syedomar1'>
+            <a target='_blank' rel="noreferrer" href='https://github.com/syedomar1'>
               <FaGithub/>
             </a>
-            <a target='_blank' href='https://www.linkedin.com/in/syed-omar-albeez'>
+            <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/syed-omar-albeez'>
               <FaLinkedin/>
             </a>
-            <a target='_blank' href='https://twitter.com/Syedomar_'>
+            <a target='_blank' rel="noreferrer" href='https://twitter.com/Syedomar_'>
               <FaTwitter/>
             </a>
-            <a target='_blank' href='https://www.instagram.com/syedomar_/'>
+            <a target='_blank' rel="noreferrer" href='https://www.instagram.com/syedomar_/'>
               <FaInstagram/>
             </a>
-            <a target='_blank' href='https://medium.com/@syedomar1'>
+            <a target='_blank' rel="noreferrer" href='https://medium.com/@syedomar1'>
               <FaMedium/>
             </a>
           </motion.div>

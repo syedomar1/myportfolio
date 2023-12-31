@@ -67,7 +67,7 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center mt-0 mb-0'>
-            <a target='_blank' href='https://www.linkedin.com/in/syed-omar-albeez' className='btn btn-lg leading-10'>Contact Me</a>
+            <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/syed-omar-albeez' className='btn btn-lg leading-10'>Contact Me</a>
             <a href='/about' onClick={() => saveFile(resume)} className='text-gradient btn-link'>
                 My Portfolio
               </a>
