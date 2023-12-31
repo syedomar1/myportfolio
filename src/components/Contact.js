@@ -43,7 +43,7 @@ const Contact = () => {
           </motion.div>
             </div>
           </motion.div>
-          <motion.form action='/contact' name='contact' method='post'
+          <motion.form name='contact' method='post' data-netlify="true"
           variants={fadeIn('left',0.3)}
           initial='hidden'
           whileInView={"show"}
@@ -51,8 +51,8 @@ const Contact = () => {
           className='flex-1 border rounded-2xl flex-col gap-y-6 pb-24 p-6 items-start'>
             <input type="hidden" name='form-name' value="contact" />
             <input name='name' className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your Name'/>
-            <input name='email' className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your Email ID'/>
-            <textarea name='message' className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' placeholder='Your message'></textarea>
+            <input required name='email' className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your Email ID'/>
+            <textarea required name='message' className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' placeholder='Your message'></textarea>
             <button type='submit' className='btn btn-lg'>Send Message</button>
           </motion.form>
         </div>
