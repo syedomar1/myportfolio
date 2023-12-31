@@ -24,7 +24,7 @@ const Contact = () => {
           initial="hidden" 
           whileInView = {'show'} 
           viewport={{once:false, amount:0.7}}
-          className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
+          className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 mb-8'>
             <a target='_blank' href='https://github.com/syedomar1'>
               <FaGithub/>
             </a>
@@ -43,16 +43,17 @@ const Contact = () => {
           </motion.div>
             </div>
           </motion.div>
-          <motion.form 
+          <motion.form action='/contact' name='contact' method='post'
           variants={fadeIn('left',0.3)}
           initial='hidden'
           whileInView={"show"}
           viewport={{once:false, amount:0.3}}
           className='flex-1 border rounded-2xl flex-col gap-y-6 pb-24 p-6 items-start'>
-            <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your Name'/>
-            <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your Email ID'/>
-            <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' placeholder='Your message'></textarea>
-            <button className='btn btn-lg'>Send Message</button>
+            <input type="hidden" name='form-name' value="contact" />
+            <input name='name' className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your Name'/>
+            <input name='email' className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" placeholder='Your Email ID'/>
+            <textarea name='message' className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' placeholder='Your message'></textarea>
+            <button type='submit' className='btn btn-lg'>Send Message</button>
           </motion.form>
         </div>
       </div>
