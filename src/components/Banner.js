@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
 
-const resume = "SyedOmar-Resume.pdf"
+const resume = "Syed_Omar_Resume.pdf"
 
 const Banner = () => {
   const saveFile = (url) =>{
