@@ -57,7 +57,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Management Lead - Google Developer Student Clubs
           </h3>
-          <p>With over a year experience being in the Management department, I have organized many events with collaborative efforts by the team. Also conducted Recruitment drive for the the Club.</p>
+          <p>With over a year experience being in the Management department, I have organized many events with collaborative efforts by the team. Also conducted Recruitment drive for the the Club. Organizing one of Tamil Nudu's biggest hackathon <a target='_blank' rel="noopener noreferrer" href='https://www.devshouse.tech/' style={{ color: 'blue'}}>"DevsHouse"</a></p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-black"
@@ -95,7 +95,7 @@ function Experience() {
             Founder President - Creative Gavel Club, Toastmasters Intl'
           </h3>
           <p>
-            Became the Competent Communicator, won many Intl' and Humurous Speech contest in Area Level, Conducted contests, welcomed new members into the community.
+            Became the Competent Communicator, won many Intl' and Humurous Speech contest in Area Level, Conducted contests, welcomed new members into the Toastmaster fraternity.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
