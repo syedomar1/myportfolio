@@ -6,7 +6,7 @@ import {fadeIn} from '../variants'
 const skills = [
   {
     name: "FrontEnd Development",
-    description: "HTML, CSS, JavaScript, React JS, Redux, Bootstrap...                                            \n\nI have worked on various projects where I have created the NoteDesk, Text Utilities Tool, NewsLive Website, Myntra Clone and many more which are on my Github profile. These projects have extensively helped me in improving my web development skills.",
+    description: "HTML, CSS, JavaScript, React JS, Redux, TailwindCSS Bootstrap...                                            \n\nI have worked on various projects where I have created the NoteDesk, Text Utilities Tool, NewsLive Website, Myntra Clone and many more which are on my Github profile. These projects have extensively helped me in improving my web development skills.",
     // link: "Learn More",
   },
   {
