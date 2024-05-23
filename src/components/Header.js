@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../assets/logo3.svg'
 
-const resume = "Syed_Omar_Resume.pdf"
+const resume = "Syed_Omar_Resume_.pdf"
 
 const Header = () => {
   const saveFile = (url) =>{

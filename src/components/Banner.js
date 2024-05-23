@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
 
-const resume = "Syed_Omar_Resume.pdf"
+const resume = "Syed_Omar_Resume_.pdf"
 
 const Banner = () => {
   const saveFile = (url) =>{
@@ -82,7 +82,7 @@ const Banner = () => {
             <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/syed-omar-albeez'>
               <FaLinkedin/>
             </a>
-            <a target='_blank' rel="noreferrer" href='https://twitter.com/Syedomar_'>
+            <a target='_blank' rel="noreferrer" href='https://x.com/Syedomar_'>
               <FaTwitter/>
             </a>
             <a target='_blank' rel="noreferrer" href='https://www.instagram.com/syedomar_/'>

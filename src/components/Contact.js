@@ -31,7 +31,7 @@ const Contact = () => {
             <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/syed-omar-albeez'>
               <FaLinkedin/>
             </a>
-            <a target='_blank' rel="noreferrer" href='https://twitter.com/Syedomar_'>
+            <a target='_blank' rel="noreferrer" href='https://x.com/Syedomar_'>
               <FaTwitter/>
             </a>
             <a target='_blank' rel="noreferrer" href='https://www.instagram.com/syedomar_/'>

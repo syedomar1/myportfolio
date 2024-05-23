@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 // import { Link } from "react-router-dom";
 
-const resume = "Syed_Omar_Resume.pdf"
+const resume = "Syed_Omar_Resume_.pdf"
 
 const About = () => {
   const saveFile = (url) =>{
