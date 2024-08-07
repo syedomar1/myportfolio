@@ -42,13 +42,13 @@ const About = () => {
               I'm a Full Stack Developer.
             </h3>
             <p className='mb-6'>
-              I am a skilled and passionate Web Developer. Current Management Lead of Google Developer Students Club and MLSA Lead at Microsoft Innovations Club.
+              I am a skilled and passionate Web Developer. Current Management Lead of Google Developer Students Club.
               Innovative, creative, team player who is passionate to solve problems, explore new tools, enhance skillset and enthusiastic about achieving academic and aspirational goals and always willing to explore a wide variety of opportunities that can help to gain perspective and embark new challenges.
             </p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-5'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView? <CountUp start={0} end={15} duration={3}/> : null}
+                  {inView? <CountUp start={0} end={10} duration={3}/> : null}
                   +
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
@@ -58,7 +58,7 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView? <CountUp start={0} end={21} duration={3}/> : null}
+                  {inView? <CountUp start={0} end={14} duration={3}/> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Events <br/>
