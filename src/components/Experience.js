@@ -37,7 +37,7 @@ function Experience() {
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title" >
-            Microsoft Student Ambassador - Microsoft
+            Beta Microsoft Student Ambassador - Microsoft
           </h3>
           <p>I learn, improve my skills, conduct workshops and contribute to the community</p>
         </VerticalTimelineElement>
