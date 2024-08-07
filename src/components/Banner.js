@@ -57,7 +57,7 @@ const Banner = () => {
            whileInView = {'show'} 
            viewport={{once:false, amount:0.7}}
           className='mb-5 max-w-lg mx-auto lg:mx-0'>
-            A Sophomore at Vellore Institute of Technology pursuing BTECH in Computer Science Engineering
+            I'm a Pre-Final Year student at Vellore Institute of Technology pursuing BTECH in Computer Science Engineering
           </motion.p>
           <motion.div 
           variants={fadeIn('up', 0.6)}

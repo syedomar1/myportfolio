@@ -6,22 +6,22 @@ import {fadeIn} from '../variants'
 const skills = [
   {
     name: "FrontEnd Development",
-    description: "HTML, CSS, JavaScript, React JS, Redux, TailwindCSS Bootstrap...                                            \n\nI have worked on various projects where I have created the NoteDesk, Text Utilities Tool, NewsLive Website, Myntra Clone and many more which are on my Github profile. These projects have extensively helped me in improving my web development skills.",
+    description: "HTML, CSS, JavaScript, React.js, Redux, Next.js, Wordpress, TailwindCSS, Bootstrap...                                            \n\nI have worked on various projects where I have created the WearHaven, ViTransport, NotesDesk, Text Utilities Tool, and many more which are on my Github profile. These projects have extensively helped me in improving my web development skills. I'm also a Web Developer at Microsoft Innovations Club.",
     // link: "Learn More",
   },
   {
     name: "BackEnd Development",
-    description:"Node JS, Express JS, MongoDB, MySQL...                                                         \n\nI have worked on backend in my NoteDesk Webapp, contributed my part in the Smart India hackathon where we worked on WooLogix to ease the Wool Logistics in India.",
+    description:"Node.js, Express.js, MongoDB, MySQL...                                                         \n\nI have worked on backend in my NoteDesk Webapp, WearHaven contributed my part in the Smart India hackathon where we worked on WooLogix to ease the Wool Logistics in India.",
     // link: "Learn More",
   },
   {
     name: "Technical",
-    description: "C, C++, Java, Python, Google CLoud, Git, Github,REST APIs, Postman, Figma, Wordpress, Assembly...\n\nAs a Tech enthusiast eagerly building upon my skills, I have been working on Data Structures and Algorithms strengthening promaramming knowledge. As well as smoothly using GIT, APIs and testing it using Postman are my strengths.",
+    description: "C, C++, Java, Python, SQL, Google CLoud, Git, Github,REST APIs, Postman, Figma, MS Excel, PowerBI, Assembly...\n\nAs a Tech enthusiast eagerly building upon my skills, I have been working on Data Structures and Algorithms strengthening promaramming knowledge. As well as smoothly using GIT, APIs and testing it using Postman are my strengths. Also a Technical Team member at CloudOps Club.",
     // link: "Learn More",
   },
   {
     name: "Leadership",
-    description: "Event Management, Team Management, Public Speaking, Human Resources(HR), Team Building...       \n\nI am the current Management Lead of Google Developer Student Clubs, Founder President of Creative Gavel Club, Management Team Member of Microsoft Innovations Club and Marketing Team Member of CloudOps Club. With experience of more than a year I have conducted and hosted several events. Which played a key role in improving my Leadership qualities and Public Speaking.",
+    description: "Event Management, Team Management, Public Speaking, Team Building...       \n\nI am the current Management Lead of Google Developer Student Clubs, Founder President of Creative Gavel Club, Served as Management Team Member of Microsoft Innovations Club and Marketing Team Member of CloudOps Club. With experience of more than a year I have conducted and hosted several events. Which played a key role in improving my Leadership qualities and Public Speaking.",
     // link: "Learn More",
   },
 ]
@@ -45,7 +45,7 @@ const Skill = () => {
           className='flex-1 lg:bg-skill lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>What am I profecient at?</h2>
             <h3 className='h3 max-w-[455px] mb-6'>
-              As a sophomore, building upon my skills, I have developed expertise in various tech stacks.
+              As a Junior, building upon my skills, I have developed expertise in various tech stacks.
             </h3>
             <a target='blank_' rel="noreferrer" href='https://github.com/syedomar1' className='btn btn-lg leading-10'>See my Work</a>
           </motion.div>
