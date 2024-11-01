@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/logo3.svg'
+import Logo from '../assets/logo.svg'
 
 const resume = "Syed_Omar_Resume_.pdf"
 
@@ -17,7 +17,7 @@ const Header = () => {
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
       <a href='/'>
-        <img src={Logo} alt="Logo" width="100px" />
+        <img src={Logo} alt="Logo" width="70px" />
       </a>
       <button className='btn btn-sm' onClick={() => saveFile(resume)}>Resume</button>
       </div>
