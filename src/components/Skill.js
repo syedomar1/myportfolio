@@ -6,22 +6,22 @@ import {fadeIn} from '../variants'
 const skills = [
   {
     name: "FrontEnd Development",
-    description: "HTML, CSS, JavaScript, React.js, Redux, Next.js, Wordpress, TailwindCSS, Bootstrap...                                            \n\nI have worked on various projects where I have created the WearHaven, ViTransport, NotesDesk, Text Utilities Tool, and many more which are on my Github profile. These projects have extensively helped me in improving my web development skills. I'm also a Web Developer at Microsoft Innovations Club.",
+    description: "HTML, CSS, JavaScript, React.js, Redux, Next.js, Wordpress, TailwindCSS, Bootstrap...                                            \n\nI have worked on various projects where I have created the DriveSync, Query-HelpDesk, WearHaven, ViTransport, NoteDesk, Text Utilities Tool, and many more which are on my Github profile. These projects have extensively helped me in improving my web development skills. I'm also a Web Developer at Microsoft Innovations Club.",
     // link: "Learn More",
   },
   {
     name: "BackEnd Development",
-    description:"Node.js, Express.js, MongoDB, MySQL...                                                         \n\nI have worked on backend in my NoteDesk Webapp, WearHaven contributed my part in the Smart India hackathon where we worked on WooLogix to ease the Wool Logistics in India.",
+    description:"Node.js, Express.js, MongoDB, MySQL...                                                         \n\nI have worked on backend in my DriveSync, Query-HelpDesk,NoteDesk, WearHaven projects.",
     // link: "Learn More",
   },
   {
     name: "Technical",
-    description: "C, C++, Java, Python, SQL, Google CLoud, Git, Github,REST APIs, Postman, Figma, MS Excel, PowerBI, Assembly...\n\nAs a Tech enthusiast eagerly building upon my skills, I have been working on Data Structures and Algorithms strengthening promaramming knowledge. As well as smoothly using GIT, APIs and testing it using Postman are my strengths. Also a Technical Team member at CloudOps Club.",
+    description: "C, C++, Java, Python, SQL, Google CLoud, Git, Github,REST APIs, Postman, Figma, MS Excel, PowerBI, Assembly...\n\nAs a Tech enthusiast eagerly building upon my skills, I have been working on Data Structures and Algorithms strengthening programming knowledge. As well as smoothly using GIT, APIs and testing it using Postman are my strengths. Also a Technical Team member at CloudOps Club.",
     // link: "Learn More",
   },
   {
     name: "Leadership",
-    description: "Event Management, Team Management, Public Speaking, Team Building...       \n\nI am the current Management Lead of Google Developer Student Clubs, Founder President of Creative Gavel Club, Served as Management Team Member of Microsoft Innovations Club and Marketing Team Member of CloudOps Club. With experience of more than a year I have conducted and hosted several events. Which played a key role in improving my Leadership qualities and Public Speaking.",
+    description: "Event Management, Team Management, Public Speaking, Team Building...       \n\nI am the current Secretary at Google Developer Groups on Campus VITC, ex-Management Lead of Google Developer Student Clubs, Founder President of Creative Gavel Club, Served as Management Team Member of Microsoft Innovations Club and Marketing Team Member of CloudOps Club. With experience of more than 2 years I have conducted and hosted several events. Which played a key role in improving my Leadership qualities and Public Speaking.",
     // link: "Learn More",
   },
 ]
@@ -34,8 +34,8 @@ const Skill = () => {
     setShowMore(newShowMore);
   };
   return(
-    <section className='section mb-16' id='skills'>
-      <div className="container mx-auto">
+    <section className='section -mt-2 md:mb-96' id='skills'>
+      <div className="container mx-auto md:mb-28">
         <div className='flex flex-col lg:flex-row'>
           <motion.div 
           variants={fadeIn('right',0.3)}
