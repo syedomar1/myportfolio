@@ -26,7 +26,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education text-black"
           dateClassName="text-white"
-          date="June 2024 - July 2024"
+          date="Dec 2024 - Present"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           contentStyle={{
             backgroundColor: "rgb(151 112 173)",
@@ -37,10 +37,10 @@ function Experience() {
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title" >
-            Full Stack Developer Intern - Ethnus
+            Software Developer Intern - ProfitAngles
           </h3>
-          <p>Developed and deployed MERN stack application, optimizing efficiency and reducing loading time by 10%.  Collaborated with cross-functional team to design and implement a Query-Helpdesk platform, enabling users to raise tickets
-          and get them resolved.</p>
+          <p>• Designed an intuitive UI with dynamic data visualizations for financial insights, enhancing user experience and decision
+making. • Integrated MySQL for querying and managing historical stock data, improving data retrieval efficiency by 10%.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education text-black"
@@ -93,9 +93,9 @@ function Experience() {
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">
-            Web Developer - Microsoft Innovations Club
+            Full-Stack Developer - Microsoft Innovations Club
           </h3>
-          <p>Hosted and organized large-scale tech events as a Management Member, and now currently devoloping end to end products.</p>
+          <p>• Crafted responsive design strategy, enhancing the UX across devices and elevated user satisfaction ratings by 40%.• Hosted and organized large-scale tech events as a Management Member, and now currently devoloping end to end products.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-black"
