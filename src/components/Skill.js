@@ -16,7 +16,7 @@ const skills = [
   },
   {
     name: "Technical",
-    description: "C, C++, Java, Python, SQL, Google CLoud, Git, Github,REST APIs, Postman, Figma, MS Excel, PowerBI, Assembly...\n\nAs a Tech enthusiast eagerly building upon my skills, I have been working on Data Structures and Algorithms strengthening programming knowledge. As well as smoothly using GIT, APIs and testing it using Postman are my strengths. Also a Technical Team member at CloudOps Club.",
+    description: "C, C++, Java, Python, SQL, AWS, Google CLoud, Git, Github, REST APIs, Postman, Figma, MS Excel, PowerBI, Assembly...\n\nAs a Tech enthusiast eagerly building upon my skills, I have been working on Data Structures and Algorithms strengthening programming knowledge. As well as smoothly using GIT, APIs and testing it using Postman are my strengths. Also a Technical Team member at CloudOps Club.",
     // link: "Learn More",
   },
   {
