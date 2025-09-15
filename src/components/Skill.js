@@ -11,7 +11,7 @@ const skills = [
   },
   {
     name: "BackEnd Development",
-    description:"Node.js, Express.js, MongoDB, MySQL...                                                         \n\nI have worked on backend in my DriveSync, Query-HelpDesk,NoteDesk, WearHaven projects.",
+    description:"Node.js, Express.js, Django, MongoDB, MySQL...                                                         \n\nI have worked on backend in my DriveSync, Query-HelpDesk,NoteDesk, WearHaven projects. As well as in ProfitAngles as an Intern",
     // link: "Learn More",
   },
   {
@@ -21,7 +21,7 @@ const skills = [
   },
   {
     name: "Leadership",
-    description: "Event Management, Team Management, Public Speaking, Team Building...       \n\nI am the current Secretary at Google Developer Groups on Campus VITC, ex-Management Lead of Google Developer Student Clubs, Founder President of Creative Gavel Club, Served as Management Team Member of Microsoft Innovations Club and Marketing Team Member of CloudOps Club. With experience of more than 2 years I have conducted and hosted several events. Which played a key role in improving my Leadership qualities and Public Speaking.",
+    description: "Event Management, Team Management, Public Speaking, Team Building...       \n\nI am the current Advisory and ex-Secretary at Google Developer Groups on Campus VITC, ex-Management Lead of Google Developer Student Clubs, Founder President of Creative Gavel Club, Served as Management Team Member of Microsoft Innovations Club and Marketing Team Member of CloudOps Club. With experience of more than 2 years I have conducted and hosted several events. Which played a key role in improving my Leadership qualities and Public Speaking.",
     // link: "Learn More",
   },
 ]
@@ -45,7 +45,7 @@ const Skill = () => {
           className='flex-1 lg:bg-skill lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>What am I profecient at?</h2>
             <h3 className='h3 max-w-[455px] mb-6'>
-              As a Junior, building upon my skills, I have developed expertise in various tech stacks.
+              As a Senior, building upon my skills, I have developed expertise in various tech stacks.
             </h3>
             <a target='blank_' rel="noreferrer" href='https://github.com/syedomar1' className='btn btn-lg leading-10'>See my Work</a>
           </motion.div>
