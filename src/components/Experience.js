@@ -12,7 +12,7 @@ import {FaBriefcase} from 'react-icons/fa';
 function Experience() {
   return (
     <section className="section md:-mt-[150px]" id="experience">
-      <div className="container mx-auto md:mt-[850px]">
+      <div className="container mx-auto md:mt-[1070px]">
         <div className="flex flex-col items-center justify-center">
           <motion.div
             variants={fadeIn("right", 0.3)}
@@ -27,7 +27,31 @@ function Experience() {
             <VerticalTimelineElement
               className="vertical-timeline-element--education text-black"
               dateClassName="text-white"
-              date="Dec 2024 - Present"
+              date="Jan 2026 - Present"
+              iconStyle={{ background: "#3e497a", color: "#fff" }}
+              contentStyle={{
+                backgroundColor: "rgb(151 112 173)",
+              }}
+              contentArrowStyle={{
+                borderRightColor: "white",
+              }}
+              icon={<FaBriefcase />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Software Developer Intern - Honeywell
+              </h3>
+              <p>
+                • Focusing on 𝐀𝐈 𝐚𝐧𝐝 𝐀𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬, specifically building software that turns data into insights and helps drive automation.
+              </p>
+              {/* <p>
+                • Managed 10+ interns, built CI/CD (GitHub Actions, Vercel),
+                modular stack & auth, cut deployment from 30+ mins to 5.
+              </p> */}
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education text-black"
+              dateClassName="text-white"
+              date="Dec 2024 - Jan 2026"
               iconStyle={{ background: "#3e497a", color: "#fff" }}
               contentStyle={{
                 backgroundColor: "rgb(151 112 173)",
