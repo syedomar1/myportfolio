@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/omar1.svg'
+import Image from '../assets/bannnerdp.svg'
 import {FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaMedium} from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
@@ -42,7 +42,7 @@ const Banner = () => {
               2000,
               'Programmer',
               2000,
-              'Manager',
+              'Organizer',
               2000,
             ]}
             speed={50}
@@ -57,7 +57,7 @@ const Banner = () => {
            whileInView = {'show'} 
            viewport={{once:false, amount:0.7}}
           className='mb-5 max-w-lg mx-auto lg:mx-0'>
-            I'm a Final Year student at Vellore Institute of Technology pursuing B.Tech in Computer Science and Engineering
+            I'm an SDE Intern at Honeywell and Senior at Vellore Institute of Technology pursuing B.Tech in Computer Science and Engineering
           </motion.p>
           <motion.div 
           variants={fadeIn('up', 0.6)}
