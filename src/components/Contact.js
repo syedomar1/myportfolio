@@ -6,7 +6,7 @@ import {FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaMedium} from 'react-icon
 const Contact = () => {
   return(
     <section className='section md:mt-[950px] md:mb-[100px]' id='contact'>
-      <div className="container mx-auto md:-mt-96">
+      <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row md:mt-96'>
           <motion.div 
           variants={fadeIn('right',0.3)}

@@ -39,10 +39,10 @@ const About = () => {
           className='flex-1'>
             <h2 className='h2 text-accent'>About me...</h2>
             <h3 className='h3 mb-4'>
-              I'm a Full Stack Developer.
+              I'm a Full Stack AI Developer.
             </h3>
             <p className='mb-6'>
-              I am a skilled and passionate Full Stack Developer. Current Advisor at Google Developer Groups on Campus VITC and ex-MLSA Lead at Microsoft Innovations Club.
+              I am a skilled and passionate Full Stack AI Developer, working at Honeywell, Advisor at Google Developer Groups on Campus VITC and ex-MLSA Lead at Microsoft Innovations Club.
               Innovative, creative, team player who is passionate to solve problems, explore new tools, enhance skillset and enthusiastic about achieving academic and aspirational goals and always willing to explore a wide variety of opportunities that can help to gain perspective and embark new challenges.
             </p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-5'>
