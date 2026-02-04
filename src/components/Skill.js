@@ -11,12 +11,12 @@ const skills = [
   },
   {
     name: "BackEnd Development",
-    description:"Node.js, Express.js, Django, MongoDB, MySQL...                                                         \n\nI have worked on backend in my DriveSync, Query-HelpDesk,NoteDesk, WearHaven projects. As well as in ProfitAngles as an Intern",
+    description:"Node.js, Express.js, Django, Golang, FastAPi, MongoDB, MySQL, PostgreSQL...                                                         \n\nI have worked on backend in my DriveSync, Query-HelpDesk,NoteDesk, WearHaven projects. As well as in ProfitAngles as an Intern",
     // link: "Learn More",
   },
   {
     name: "Technical",
-    description: "C, C++, Java, Python, SQL, AWS, Google CLoud, Git, Github, REST APIs, Postman, Figma, MS Excel, PowerBI, Assembly...\n\nAs a Tech enthusiast eagerly building upon my skills, I have been working on Data Structures and Algorithms strengthening programming knowledge. As well as smoothly using GIT, APIs and testing it using Postman are my strengths. Also a Technical Team member at CloudOps Club.",
+    description: "C, C++, Java, Python, SQL, AWS, Google Cloud, Pandas, Numpy, TensorFlow, Git, Github, REST APIs, GraphQL, Postman, Figma, MS Excel, PowerBI, Assembly...\n\nAs a Tech enthusiast eagerly building upon my skills, I have been working on Data Structures and Algorithms strengthening programming knowledge. As well as smoothly using Git, APIs and testing it using Postman are my strengths. Also a ex-Technical Team member at Microsoft Innovations Club and CloudOps Club.",
     // link: "Learn More",
   },
   {
